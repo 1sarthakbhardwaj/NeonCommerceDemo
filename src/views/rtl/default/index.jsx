@@ -28,6 +28,11 @@ const Dashboard = () => {
           subtitle={"$340.5"}
         />
         <Widget
+          icon={<MdBarChart className="h-7 w-7" />}
+          title={"Earnings"}
+          subtitle={"$340.5"}
+        />
+        <Widget
           icon={<IoDocuments className="h-6 w-6" />}
           title={"Spend this month"}
           subtitle={"$642.39"}

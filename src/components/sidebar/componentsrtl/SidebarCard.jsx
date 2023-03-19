@@ -9,14 +9,8 @@ const FreeCard = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path
-            d="M10.0923 27.3033H30.8176V36.3143H10.0923V27.3033Z"
-            fill="white"
-          />
-          <path
-            d="M31.5385 29.1956C31.5385 26.2322 30.3707 23.3901 28.2922 21.2947C26.2136 19.1992 23.3945 18.022 20.4549 18.022C17.5154 18.022 14.6963 19.1992 12.6177 21.2947C10.5392 23.3901 9.37143 26.2322 9.37143 29.1956L20.4549 29.1956H31.5385Z"
-            fill="white"
-          />
+          
+          
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -26,21 +20,6 @@ const FreeCard = () => {
         </svg>
       </div>
 
-      <div className="mt-16 flex h-fit flex-col items-center">
-        <p className="text-lg font-bold text-white">Upgrade to PRO</p>
-        <p className="mt-1 px-4 text-center text-sm text-white">
-          Improve your development process and start doing more with Horizon UI
-          PRO!
-        </p>
-
-        <a
-          target="blank"
-          className="text-medium mt-7 block rounded-full bg-gradient-to-b from-white/50 to-white/10 py-[12px] px-11 text-center text-base text-white hover:bg-gradient-to-b hover:from-white/40 hover:to-white/5 "
-          href="https://horizon-ui.com/pro?ref=live-free-tailwind-react"
-        >
-          Upgrade to PRO
-        </a>
-      </div>
     </div>
   );
 };
